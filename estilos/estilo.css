@@ -78,23 +78,21 @@ nav ul li a{
 .logo{
     padding-top: 20px;
     margin: 0px;
-    width: 8.5cm;
+    width: 8cm;
     
 
 
 }
 
-.titulo1 {font-family: 'Square Peg', cursive;
-    font-size: 50px;
+.titulo1 {
+    font-family: 'Square Peg', cursive;
+    font-size: 70px;
     color: #94B49F ;
-    padding: 1px 0;
     border-bottom: 5px dotted #B4CFB0;
-    border-top: 3px solid black;
-    margin: 0 auto;
-    text-decoration: double;
+    padding: 50px 50px 0% 50px;
     width: 100%;
-    
-    
+
+         
     }
 
 
@@ -117,9 +115,11 @@ p{
 
 
 h1{
+    width: 100;
     height: 100%;
-    padding-top: 10px;
-    margin: 70px 50px 0% 100px;
+    padding: 50px 50px 0% 50px;
+    
+    border-top: 3px solid black;
 }
 
 h2{
@@ -129,6 +129,9 @@ margin: 15px;
     
 
 }
+
+
+
 
 
 
@@ -210,6 +213,12 @@ align-items: center;
 font-size: 22px;
 }
 
+
+.formulario{
+ padding: 20px; 
+ line-height: 30px; 
+ border-top: 0;
+}
 
 
 .footer{
