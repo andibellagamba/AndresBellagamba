@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <link rel="stylesheet" href="../estilos/estilo.css">
     <link rel="shortcut icon" href="../img/celita.png">
     <title>Document</title>
@@ -53,8 +56,9 @@
 
     <h1>Nuestros productos:</h1>
 
-    <span class="badge rounded-pill text-bg-info">30% off en productos seleccionados</span>
-
+<div data-aos="flip-down">
+    <h3>30% off en productos seleccionados</h3>
+</div>
 
     
     <section class="galeriagrid">
@@ -134,5 +138,10 @@
           <img class="ig" src="../img/insta-03.png" alt="ig">
           
       </footer>
+
+
+      <script>
+        AOS.init();
+      </script>
      
      </body>

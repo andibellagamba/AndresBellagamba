@@ -37,6 +37,7 @@ header{
     justify-content: center;
     position: fixed;
     top: 0;
+    z-index: 1;
     
     
          
@@ -67,7 +68,9 @@ nav ul li a{
     color: black;
     font-size: 25px;
     padding: 18px;
-    
+    block-size: auto;
+  
+   display: inline-block;
     
     
     
@@ -131,8 +134,23 @@ margin: 15px;
 }
 
 
+h3{
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
+}
 
 
+.ofertanimado{
+    padding: 5px;
+    border: 2px;
+    transition: 1.5s;
+;
+}
+
+.ofertanimado:hover{
+    transform: rotate(360deg) scale(3) translate(80px);
+}
 
 
 section{
@@ -227,10 +245,11 @@ font-size: 22px;
     bottom: 0px;
     margin-bottom: 0;
     margin-top: auto;
-    height: 100px;
+    height: 115px;
     width: 100%;
     color: rgb(0, 0, 0);
     grid-area: footer;
+    z-index: 1;
 
 }
 
@@ -264,6 +283,7 @@ font-size: 22px;
         "content"
         "footer"
         ;
+        ;
     }
     
     .galeriapadre{
@@ -288,7 +308,7 @@ font-size: 22px;
 
 
 
-@media (max-width: 1024px){
+@media (max-width: 768px){
 
     .grilla{
         display: grid;
@@ -307,7 +327,7 @@ font-size: 22px;
     
     .galeriapadre{
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
         height: 100%;
         width: auto;
