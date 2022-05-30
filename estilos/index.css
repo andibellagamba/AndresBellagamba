@@ -1,0 +1,21 @@
+.titulo1 {
+  font-family: 'Square Peg', cursive;
+  font-size: 70px;
+  color: #94B49F;
+  border-bottom: 5px dotted #B4CFB0;
+  padding: 50px 50px 0% 50px;
+  width: 100%;
+}
+
+.ofertanimado {
+  padding: 5px;
+  border: 2px;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.ofertanimado:hover {
+  -webkit-transform: rotate(360deg) scale(3) translate(80px);
+          transform: rotate(360deg) scale(3) translate(80px);
+}
+/*# sourceMappingURL=index.css.map */
