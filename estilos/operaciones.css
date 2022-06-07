@@ -1,0 +1,45 @@
+/*mapas*/
+.btn--facebook {
+  background-color: #3a5795;
+  border: none;
+  display: inline-block;
+  padding: 10px 15px 10px 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn--whatsapp {
+  background-color: #00ff55;
+  border: none;
+  display: inline-block;
+  padding: 10px 15px 10px 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn--instagram {
+  background-color: #fc39b1;
+  border: none;
+  display: inline-block;
+  padding: 10px 15px 10px 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.titulosprincipales {
+  width: 100;
+  height: 100%;
+  padding: 50px 50px 0% 50px;
+  border-top: 3px solid black;
+  margin-left: 2000px;
+}
+
+.parrafos {
+  color: #5D534A;
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px;
+}
+/*# sourceMappingURL=operaciones.css.map */

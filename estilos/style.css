@@ -1,9 +1,12 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Square+Peg&display=swap");
+@import url();
+;
+
 header {
   background-color: #5cb8c0;
-  height: 1.4cm;
+  height: 4.4cm;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,17 +54,10 @@ body {
 }
 
 body p {
-  color: #5D534A;
-  font-family: 'Open Sans', sans-serif;
-  margin: 20px;
+   font-family: 'Open Sans', sans-serif;
 }
 
-body h1 {
-  width: 100;
-  height: 100%;
-  padding: 50px 50px 0% 50px;
-  border-top: 3px solid black;
-}
+
 
 body h2 {
   color: #AD8B73;
@@ -128,6 +124,8 @@ body figcaption {
   padding: 15px;
   margin-left: 15%;
 }
+
+
 
 .titulo1 {
   font-family: 'Square Peg', cursive;
@@ -243,6 +241,9 @@ body figcaption {
   border-top: 0;
 }
 
+
+
+
 /* definimos cantidad de filas, columnas     y sus tamaños */
 @media (min-width: 767px) {
   .grilla {
@@ -254,7 +255,9 @@ body figcaption {
     -ms-grid-rows: auto;
         grid-template-rows: auto;
     grid-area: grilla;
-        grid-template-areas: "header" "content" "footer";
+        grid-template-areas: "header"
+ "content"
+ "footer";
   }
   .galeriapadre {
     display: -ms-grid;
@@ -285,7 +288,9 @@ body figcaption {
         grid-template-rows: auto auto auto;
     grid-area: grilla;
     width: 100%;
-        grid-template-areas: "header header header" "content content content" "footer footer footer";
+        grid-template-areas: "header header header"
+ "content content content"
+ "footer footer footer";
   }
   .galeriapadre {
     display: -ms-grid;
