@@ -1,5 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Square+Peg&display=swap');
+
+@import "generales"; 
 @import "index";
-@import "style";
-@import "generales";
+@import "mq";
+@import "variables";
+@import "operaciones";
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.header{
+    grid-area: header;
+    
+
+}
+
+.galeriagrid{
+    display: flex;
+    grid-area: galeria;
+}
+
+/* selector - propiedad - valor */
+
+.logo{
+    padding-top: 20px;
+    margin: 0px;
+    width: 8cm;
+    
+}
+
+
+.h1{
+    @extend.titulosprincipales;
+}
+
+.p{
+    @extend.parrafos;
+}
+
+
+@mixin sizes ($width, $height) {
+      height: $height;
+      width: $width;
+}
+
+.productos{
+    @include sizes (250px, 50px);
+}
+
+
+
+.finaliza{
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.carrito{
+        padding: 20px;
+        margin: 20px;
+        height: 8cm;
+    
+}
+
+
+.nosotros{
+    height: 12cm;
+   display: inline
+   
+}
+
+.gradiente{
+    display: flex;
+    border-left: 50%;
+
+width: 200px;
+height: 200px;
+background-image: linear-gradient(to top, hsl(46, 79%, 85%), #5cb8c0 );
+
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3px;
+    margin-left: 50px;
+    margin: 10px 20px 20px 20px;
+    width: 250px;
+    border: 3px solid black;
+    transition-property: all;
+    transition-duration: 1s; 
+}
+
+.productos:hover{
+    transform: scale(1.8);
+}
+ 
+.cartera1{
+    transition-property: all;
+    transition-duration: 0.5ms;  
+}
+
+
+
+.formulario{
+ padding: 20px; 
+ line-height: 30px; 
+ border-top: 0;
+}
 
 

@@ -1,36 +1,12 @@
 $color-principal: #F9F4E3;
 
-/*mapas*/ 
-
-$redes:(
-    facebook: #3a5795,
-    whatsapp: hsl(140, 100%, 50%),
-    instagram: #fc39b1,
-);
-
-@each $red, $color in $redes {
-
-    .btn--#{$red}{
-        background-color: $color;
-        border: none;
-        display: inline-block;
-        padding: 10px 15px 10px 15px;
-        justify-content: center;
-    }
-    
-}
-
-
-
-
-
 
 .titulosprincipales{
     width: 100;
     height: 100%;
     padding: 50px 50px 0% 50px;
     border-top: 3px solid black;
-    margin-left: 2000px;
+    
 }
 
 .parrafos{
@@ -38,10 +14,5 @@ $redes:(
     font-family: 'Open Sans', sans-serif;
     margin: 20px;
 }
-
-
-
-
-
 
 
