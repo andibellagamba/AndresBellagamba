@@ -9,8 +9,7 @@ header {
     background-color: #5cb8c0;
     height: 1.4cm;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
+   
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -25,8 +24,7 @@ header {
   }
   
   header nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
+   
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -145,8 +143,10 @@ header {
     color: black;
     grid-area: footer;
     z-index: 1;
+    justify-content: center;
   }
   
+
 
   /*mapas*/ 
 
