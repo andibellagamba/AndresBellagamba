@@ -114,6 +114,12 @@ body figcaption {
   font-size: 22px;
 }
 
+.contenedor{
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 .comocompro{
   display: flex;
   padding: 30px 30px;
@@ -240,15 +246,6 @@ font-size: small;
  
 }
 
-.gradiente{
-  display: flex;
-  border-left: 50%;
-
-width: 200px;
-height: 200px;
-background-image: linear-gradient(to top, hsl(46, 79%, 85%), #5cb8c0 );
-
-}
 
 .productos{
   display: flex;
@@ -433,7 +430,7 @@ left: 30%;
   .grilla {
     display: -ms-grid;
     display: grid;
-    width: auto;
+    width: 100%;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: auto;
@@ -460,38 +457,16 @@ left: 30%;
             align-items: center;
     gap: 150px;
   }
+
+  .header{
+    width: 100%;
+    display: inline-flex;
+  }
+
+  .footer{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+  }
 }
 
-@media (max-width: 768px) {
-  .grilla {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-    -ms-grid-rows: auto auto auto;
-        grid-template-rows: auto auto auto;
-    grid-area: grilla;
-    width: 100%;
-        grid-template-areas: "header header header"
- "content content content"
- "footer footer footer";
-  }
-  .galeriapadre {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: auto;
-        grid-template-rows: auto;
-    height: 100%;
-    width: auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 150px;
-  }
-}
-/*# sourceMappingURL=style.css.map */
