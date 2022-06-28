@@ -460,6 +460,9 @@ left: 30%;
 
   .header{
     width: 100%;
+    height: auto;
+    
+    
     display: inline-flex;
   }
 
@@ -469,4 +472,5 @@ left: 30%;
     justify-content: center;
   }
 }
+
 
